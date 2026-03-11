@@ -1,1 +1,97 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
 
+body{
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#1e1e1e;
+}
+
+.nav-links{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+.nav-buttons{
+display:flex;
+gap:10px;
+}
+
+.book{
+cursor:pointer;
+}
+
+.create{
+background:#3b82f6;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+color:white;
+}
+
+/* GLASS BOX */
+
+.glass-box{
+
+width:65%;
+padding:40px;
+text-align:center;
+
+background:rgba(125, 195, 210, 0.6);
+border-radius:12px;
+
+backdrop-filter: blur(8px);
+
+}
+
+/* LOGO */
+
+.center-logo{
+width:120px;
+margin-bottom:20px;
+}
+
+/* TITLE */
+
+h1{
+font-size:36px;
+color:#333;
+}
+
+.brand{
+color:#f59e0b;
+font-weight:bold;
+}
+
+/* INSTRUCTION TEXT */
+
+.instruction{
+margin-top:10px;
+color:#333;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+background:#222;
+padding:10px;
+}
