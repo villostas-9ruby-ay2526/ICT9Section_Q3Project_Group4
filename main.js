@@ -1,1 +1,5 @@
+function showRegularFare() {
+}
 
+function showDiscountedFare() {
+}
