@@ -1,22 +1,27 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial;
+.hero {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  font-family:Arial;
+}
+
+.round-logo {
+  width: 50px;      
+  height: 50px;
+  border-radius: 50%;
+}
+
+img{
+    width: 110px;
+    height: 110px;
+}
+
+.container{
+    padding-top: 10%;
 }
 
 body{
 color:white;
-}
-
-/* NAVBAR */
-
-nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:15px 40px;
-background:#1e1e1e;
 }
 
 .nav-links{
@@ -35,63 +40,16 @@ display:flex;
 gap:10px;
 }
 
-.book{
-cursor:pointer;
-}
-
-.create{
-background:#3b82f6;
-border:none;
-padding:8px 15px;
-border-radius:6px;
-color:white;
-}
-
-/* GLASS BOX */
-
 .glass-box{
-
-width:65%;
-padding:40px;
-text-align:center;
-
-background:rgba(125, 195, 210, 0.6);
-border-radius:12px;
-
-backdrop-filter: blur(8px);
-
+  width:100%;
+  padding:200px;
+  text-align:center;
+  background:lightblue;
+  border-radius:12px;
+  backdrop-filter: blur(8px);
 }
-
-/* LOGO */
 
 .center-logo{
 width:120px;
 margin-bottom:20px;
-}
-
-/* TITLE */
-
-h1{
-font-size:36px;
-color:#333;
-}
-
-.brand{
-color:#f59e0b;
-font-weight:bold;
-}
-
-/* INSTRUCTION TEXT */
-
-.instruction{
-margin-top:10px;
-color:#333;
-}
-
-/* FOOTER */
-
-footer{
-text-align:center;
-background:#222;
-padding:10px;
 }
