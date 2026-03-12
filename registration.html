@@ -9,42 +9,50 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 
+<style>
+    body{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+</style>
+
+
+
 <body>
     <!-- Header -->
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
+<div class="container-fluid">
     <a href="image (2).png class="navbar-brand">
     <img src="image (2).png" alt="logo" class="round-logo">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-      <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="mynavbar">
-      <ul class="navbar-nav me-auto">
+        <ul class="navbar-nav me-auto">
 
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="schedule.html">Fare Matrix</a>
+            <a class="nav-link" href="schedule.html">Fare Matrix</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="registration.html">Book Now</a>
+            <a class="nav-link" href="registration.html">Book Now</a>
         </li>
 
-      </ul>
-      <form class="d-flex">
+        </ul>
+    <form class="d-flex">
         <button class="btn btn-primary" type="button">Create Account</button>
-      </form>
+    </form>
     </div>
-  </div>
+</div>
 </nav>
     
 <!-- Hero Section -->
-<div class="hero-image flex-grow-1">
-  <div class="container p-4 mt-5 mb-5 rounded bg-primary" style: opacity 67%;>
+<div class="hero-image flex-grow-1 text-white">
+<div class="container p-4 mt-5 mb-5 rounded bg-dark" style: opacity 67%;>
     <h2>Registration Form</h2>
     <hr>
     
@@ -67,6 +75,7 @@
                 <select class="form-control">
                     <option value="male">Male</option>
                     <option value="female">Female</option>
+                    <option value="female">Prefer not to say</option>
                 </select>
             </div>
             <!--Age-->
@@ -95,18 +104,23 @@
             <!--Contact Number-->
                 <div class="mb-3">
                     <label class="form-label" for="inputPassword">Password</label>
-                        <input type="phone number" class="form-control" id="inputemail" placeholder="Enter Password">
+                        <input type="password" class="form-control" id="inputemail" placeholder="Enter Password">
                 </div>
-              </br><br>
-         <!--Checkbox-->
+            </br><br>
+            <div class="mb-3">
+                    <label class="form-label" for="inputPassword">Confirm Password</label>
+                        <input type="password" class="form-control" id="inputemail" placeholder="Confirm Password">
+            </div>
+        <!--Checkbox-->
             <div class="form-check mb-3">
                 <input class="form-check-input" type="checkbox" id="remember">
                     <label class="form-check-label" for="remember">Remember me</label>
             </div>
 
         <!--Button-->
-         <a href="confirmation.html" class="btn btn-primary">Confirm</a>
-
+        <div class="text-center">
+        <a href="confirmation.html" class="btn btn-success col-2">Confirm</a>
+        </div>
         <!-- Footer -->
     <footer class="bg-dark text-white text-center fixed-bottom">
         <p>&copy; 2026 Fare Matrix. All rights reserved.</p>
